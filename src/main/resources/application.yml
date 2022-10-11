@@ -4,7 +4,6 @@ user01:
 tompet:
   pet-name: tom
   weight: 9.3
-
 person:
   user-name: zhangsan
   boss: false
