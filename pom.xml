@@ -80,6 +80,7 @@
                 </configuration>
             </plugin>
             <plugin>
+                <!--让配置处理器，打包的时候排除excludes配置提示，不打包进去-->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>

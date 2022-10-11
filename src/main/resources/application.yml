@@ -10,16 +10,18 @@ person:
   birth: 2020/5/18 14:43:11
   age: 20
   pet:
-    petName: tomcat
+    pet-name: tomcat
     weight: 3.6
   interests: [music,basketball,book,food]
   animal:
     - jerry
     - tom
     - bruto
+    - bigyellow
   score: {1.2,5.6,4.3,100.1}
   salarys: [3333,22222,5555]
   all-pets:
     health: [{pet-name: tom,weight: 9.3},{pet-name: jerry,weight: 1.2}]
     sick:
       - {pet-name: bruto,weight: 15.3}
+      - {pet-name: bigyellow,weight: 19}

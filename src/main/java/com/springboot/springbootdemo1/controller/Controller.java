@@ -23,12 +23,14 @@ public class Controller {
 
     @RequestMapping("/person01")
     public Person person01() {
+//        System.out.println(person01);
         return person01;
     }
 
     @RequestMapping("/user01")
     public User user01() {
         user01.setPet(tompet);
+        System.out.println(user01);
         return user01;
     }
 }
