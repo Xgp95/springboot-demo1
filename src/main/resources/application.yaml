@@ -1,0 +1,7 @@
+#spring:
+  #静态资源前缀（默认直接类路径下，无前缀）
+#  mvc:
+#      static-path-pattern: /img/**
+  #静态资源路径
+#  resources:
+#    static-locations: classpath:/here/
