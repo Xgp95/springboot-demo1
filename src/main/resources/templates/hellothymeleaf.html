@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--<html lang="en">-->
+<head>
+    <meta charset="UTF-8">
+    <title>Hellothymeleaf</title>
+</head>
+<body>
+<h1 th:text="${msg}">hello</h1>
+<h2>
+    <a th:href="${link}">baidu1</a><br/>
+    <a th:href="${link1}">baidu2</a><br/>
+    <a th:href="@{${link1}}">baidu3</a><br/>
+    <a href="http://www.baidu.com">baidu4</a><br/>
+    <a th:href="@{http://www.baidu.com}">baidu3</a><br/>
+</h2>
+</body>
+</html>
