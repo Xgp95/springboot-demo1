@@ -13,10 +13,10 @@ import java.io.IOException;
 @Controller
 @Slf4j
 public class ControllerTest1 {
-    @GetMapping(value = {"/", "/index.html"})
-    public String index() {
-        return "index";
-    }
+//    @GetMapping(value = {"/", "/index.html"})
+//    public String index() {
+//        return "index";
+//    }
 
     @GetMapping(value = "/hellothymeleaf")
     public String hellothymeleaf(Model model) {

@@ -18,7 +18,7 @@ person:
     - tom
     - bruto
     - bigyellow
-  score: {1.2,5.6,4.3,100.1}
+  score: {eng: 1.2,cn: 5.6,jpa: 4.3,spa: 100.1}
   salarys: [3333,22222,5555]
   all-pets:
     health: [{pet-name: tom,weight: 9.3},{pet-name: jerry,weight: 1.2}]
